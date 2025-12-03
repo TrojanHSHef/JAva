@@ -69,7 +69,6 @@ public class Calculator extends JFrame {
                         }
                         break;
                 }
-                // Отображаем целое число, если результат целый
                 if (result == (long) result) {
                     display.setText(String.valueOf((long) result));
                 } else {
